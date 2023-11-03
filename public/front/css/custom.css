@@ -1,0 +1,66 @@
+.navbar{
+    padding: 0 0 !important;
+}
+
+.navbar-nav .nav-link{
+    color: #fff !important;
+    font-weight: 600 !important;
+    border-right: 1px solid !important;
+    padding: 8px 18px !important;
+}
+
+.card-shadow{
+    box-shadow: 0 2px 8px 0 rgb(0, 0, 0 / 10%);
+    border-radius: 5px;
+}
+
+.category-heading{
+    padding: 10px 12px;
+    border-left: 6px solid #000;
+    background-color: #ddd;
+}
+
+.post-heading{
+    font-size: 26px;
+    color:#000;
+}
+
+.owl-nav button.owl-next,
+.owl-nav button.owl-prev{
+    color:#fff !important;
+    margin-left: 10px !important;
+    background-color: orange !important;
+    border:none !important;
+    outline: none !important;
+    font-size: 20px !important;
+    height: 28px !important;
+    width:38px !important;
+}
+
+.underline{
+    width: 60px;
+    height: 3px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+/* add this code to enable scroll in post view */
+.post-description{
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+
+/* add this code to design perfect post view */
+.post-code-bg{
+    width: fit-content;
+    min-width: 100%;
+    /* background-color: #212121; */
+    width: 100% !important;
+    overflow-x: scroll !important;
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
